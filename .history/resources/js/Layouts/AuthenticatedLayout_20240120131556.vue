@@ -15,9 +15,10 @@ const showingNavigationDropdown = ref(false);
         <div class="flex items-center bg-gray-900 h-[60px] py-2 fixed z-50 min-w-[1150px] w-full">
             <div class="flex">
                 <Link class=" text-white h-[50] p-2 pt-3 border-[1px] border-grey-900 rounded-sm hover:border-[1px] hover:border-gray-100 cursor-pointer">
-                    Canine & Feline
+                    AMAZON
                 </Link>
             </div>
+
         </div>
     </div>
 </template>
