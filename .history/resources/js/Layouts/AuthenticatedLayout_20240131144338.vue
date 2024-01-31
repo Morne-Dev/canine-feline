@@ -123,45 +123,45 @@ const showingNavigationDropdown = ref(false);
             <div class="flex items-stretch justify-between max-w-[1000px] mx-auto p-10 text-white">
                 <ul>
                     <li class=" font-extrabold text-lg">Get to Know Us</li>
-                    <li class="hover:underline cursor-pointer">Careers</li>
-                    <li class="hover:underline cursor-pointer">About Canine & Feline</li>
-                    <li class="hover:underline cursor-pointer">Investor Relations</li>
-                    <li class="hover:underline cursor-pointer">Canine & Feline Devices</li>
-                    <li class="hover:underline cursor-pointer">Canine & Feline Science</li>
+                    <li class="hover:underline cursor-pointer text-lg">Careers</li>
+                    <li class=" font-extrabold text-lg">About Canine & Feline</li>
+                    <li class=" font-extrabold text-lg">Investor Relations</li>
+                    <li class=" font-extrabold text-lg">Canine & Feline Devices</li>
+                    <li class=" font-extrabold text-lg">Canine & Feline Science</li>
 
                 </ul>
 
                 <ul>
                     <li class=" font-extrabold text-lg">Make Money with US</li>
-                    <li class="hover:underline cursor-pointer">Sell products on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Sell on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Sell apps on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Become an Affiliate</li>
-                    <li class="hover:underline cursor-pointer">Advertise Your Products</li>
-                    <li class="hover:underline cursor-pointer">Self-Publish with Us</li>
-                    <li class="hover:underline cursor-pointer">Host on Amazon Hub</li>
+                    <li class="hover:underline cursor-pointer text-lg">Sell products on Amazon</li>
+                    <li class=" font-extrabold text-lg">Sell on Amazon</li>
+                    <li class=" font-extrabold text-lg">Sell apps on Amazon</li>
+                    <li class=" font-extrabold text-lg">Become an Affiliate</li>
+                    <li class=" font-extrabold text-lg">Advertise Your Products</li>
+                    <li class=" font-extrabold text-lg">Self-Publish with Us</li>
+                    <li class=" font-extrabold text-lg">Host on Amazon Hub</li>
 
                 </ul>
 
                 <ul>
                     <li class=" font-extrabold text-lg">Get to Know Us</li>
-                    <li class="hover:underline cursor-pointer">Careers</li>
-                    <li class="hover:underline cursor-pointer">About Canine & Feline</li>
-                    <li class="hover:underline cursor-pointer">Investor Relations</li>
-                    <li class="hover:underline cursor-pointer">Canine & Feline Devices</li>
-                    <li class="hover:underline cursor-pointer">Canine & Feline Science</li>
+                    <li class="hover:underline cursor-pointer text-lg">Careers</li>
+                    <li class=" font-extrabold text-lg">About Canine & Feline</li>
+                    <li class=" font-extrabold text-lg">Investor Relations</li>
+                    <li class=" font-extrabold text-lg">Canine & Feline Devices</li>
+                    <li class=" font-extrabold text-lg">Canine & Feline Science</li>
 
                 </ul>
 
                 <ul>
                     <li class=" font-extrabold text-lg">Make Money with US</li>
-                    <li class="hover:underline cursor-pointer">Sell products on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Sell on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Sell apps on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Become an Affiliate</li>
-                    <li class="hover:underline cursor-pointer">Advertise Your Products</li>
-                    <li class="hover:underline cursor-pointer">Self-Publish with Us</li>
-                    <li class="hover:underline cursor-pointer">Host on Amazon Hub</li>
+                    <li class="hover:underline cursor-pointer text-lg">Sell products on Amazon</li>
+                    <li class=" font-extrabold text-lg">Sell on Amazon</li>
+                    <li class=" font-extrabold text-lg">Sell apps on Amazon</li>
+                    <li class=" font-extrabold text-lg">Become an Affiliate</li>
+                    <li class=" font-extrabold text-lg">Advertise Your Products</li>
+                    <li class=" font-extrabold text-lg">Self-Publish with Us</li>
+                    <li class=" font-extrabold text-lg">Host on Amazon Hub</li>
 
                 </ul>
             </div>

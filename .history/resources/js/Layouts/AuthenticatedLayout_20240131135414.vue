@@ -84,7 +84,7 @@ const showingNavigationDropdown = ref(false);
                 </div>
                 <div class="relative h-[50px] p-2 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
                     <span class="absolute text-center right-[21px] w-14px -top-0 rounded-full text-[20px]">
-                        <div class="text-orange-400 font-extrabold bg-gray-900 h-[16px]">0</div>
+                        <div class="text-orange-400 font-extrabold bg-gray-900 h-[16px]">-0</div>
                     </span>
                     <div class="flex items-center justify-center">
                         <CartMinusIcon fillColor="#fcfcfc" :size="40" class="-mt-0.5"/>
@@ -100,7 +100,7 @@ const showingNavigationDropdown = ref(false);
 
         <div class="w-full bg-white mt-10">
             <div class="max-w-[1500px] mx-auto">
-                <div class="text-[23px] pt-4 font-extrabold">Recommended based on your shopping trends</div>
+            <div class="text-[23px] pt-4 font-extrabold">
                 <div class="flex justify-center items-stretch">
                     <div class="p-4 text-center mx-auto">
                         <div class="w-[158px] h-[150px] overflow-hidden">
@@ -114,57 +114,8 @@ const showingNavigationDropdown = ref(false);
                         </div>
                     </div>
                 </div>
-            </div>    
+            </div>
+            </div>
         </div>
-        <footer class="bg-[#232F3E]">
-            <div class="bg-[#37475A] hover:bg-gray-600 w-full p-3.5 cursor-pointer text-white font-extrabold text-center">
-                Back to top
-            </div>
-            <div class="flex items-stretch justify-between max-w-[1000px] mx-auto p-10 text-white">
-                <ul>
-                    <li class=" font-extrabold text-lg">Get to Know Us</li>
-                    <li class="hover:underline cursor-pointer">Careers</li>
-                    <li class="hover:underline cursor-pointer">About Canine & Feline</li>
-                    <li class="hover:underline cursor-pointer">Investor Relations</li>
-                    <li class="hover:underline cursor-pointer">Canine & Feline Devices</li>
-                    <li class="hover:underline cursor-pointer">Canine & Feline Science</li>
-
-                </ul>
-
-                <ul>
-                    <li class=" font-extrabold text-lg">Make Money with US</li>
-                    <li class="hover:underline cursor-pointer">Sell products on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Sell on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Sell apps on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Become an Affiliate</li>
-                    <li class="hover:underline cursor-pointer">Advertise Your Products</li>
-                    <li class="hover:underline cursor-pointer">Self-Publish with Us</li>
-                    <li class="hover:underline cursor-pointer">Host on Amazon Hub</li>
-
-                </ul>
-
-                <ul>
-                    <li class=" font-extrabold text-lg">Get to Know Us</li>
-                    <li class="hover:underline cursor-pointer">Careers</li>
-                    <li class="hover:underline cursor-pointer">About Canine & Feline</li>
-                    <li class="hover:underline cursor-pointer">Investor Relations</li>
-                    <li class="hover:underline cursor-pointer">Canine & Feline Devices</li>
-                    <li class="hover:underline cursor-pointer">Canine & Feline Science</li>
-
-                </ul>
-
-                <ul>
-                    <li class=" font-extrabold text-lg">Make Money with US</li>
-                    <li class="hover:underline cursor-pointer">Sell products on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Sell on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Sell apps on Amazon</li>
-                    <li class="hover:underline cursor-pointer">Become an Affiliate</li>
-                    <li class="hover:underline cursor-pointer">Advertise Your Products</li>
-                    <li class="hover:underline cursor-pointer">Self-Publish with Us</li>
-                    <li class="hover:underline cursor-pointer">Host on Amazon Hub</li>
-
-                </ul>
-            </div>
-        </footer>
     </div>
 </template>
