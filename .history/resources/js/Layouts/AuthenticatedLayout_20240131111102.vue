@@ -92,6 +92,5 @@ const showingNavigationDropdown = ref(false);
                 </div>
             </div>
         </div>
-        
     </div>
 </template>

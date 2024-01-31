@@ -4,7 +4,7 @@ import { Link } from '@inertiajs/vue3';
 import MapMarkerOutlineIcon from 'vue-material-design-icons/MapMarkerOutline.vue';
 import MenuDownIcon from 'vue-material-design-icons/MenuDown.vue';
 import MagnifyIcon from 'vue-material-design-icons/Magnify.vue';
-import CartMinusIcon from 'vue-material-design-icons/CartMinus.vue';
+import CartMinusIcon from 'vue-material-design-icons/CardMinus.vue';
 
 const showingNavigationDropdown = ref(false);
 </script>
@@ -92,6 +92,5 @@ const showingNavigationDropdown = ref(false);
                 </div>
             </div>
         </div>
-        
     </div>
 </template>

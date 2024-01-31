@@ -4,7 +4,6 @@ import { Link } from '@inertiajs/vue3';
 import MapMarkerOutlineIcon from 'vue-material-design-icons/MapMarkerOutline.vue';
 import MenuDownIcon from 'vue-material-design-icons/MenuDown.vue';
 import MagnifyIcon from 'vue-material-design-icons/Magnify.vue';
-import CartMinusIcon from 'vue-material-design-icons/CartMinus.vue';
 
 const showingNavigationDropdown = ref(false);
 </script>
@@ -13,7 +12,7 @@ const showingNavigationDropdown = ref(false);
     <div class="min-w-[1150px] bg-gray-100 h-full">
         <div class="flex items-center bg-gray-900 h-[70px] py-2 fixed z-50 min-w-[1150px] w-full">
             <div class="flex">
-                <Link href="/your-desired-path" class="text-white h-[50] p-2 pt-3 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
+                <Link class="text-white h-[50] p-2 pt-3 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
                     Canine & Feline
                 </Link>
             </div>
@@ -48,7 +47,7 @@ const showingNavigationDropdown = ref(false);
                 </div>
             </div>
             <div class="flex">
-                <div class="h-[50px] p-2 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
+                <div class="h-[50] p-2 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
                     <div class="flex items-center justify-center mt-2.5 px-1">
                         <img src="https://via.placeholder.com/35x20" alt=""/>
                         <div class="text-[15px] text-white -mt-2 -mr-0.5 font-extrabold">EN</div>
@@ -56,7 +55,7 @@ const showingNavigationDropdown = ref(false);
                     </div>
                 </div>
 
-                <div class="h-[50px] p-2 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
+                <div class="h-[50] p-2 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
                     <div class="flex items-center justify-center">
                         <div>
                             <div class="text-[12px] text-white font-extrabold">
@@ -70,28 +69,7 @@ const showingNavigationDropdown = ref(false);
                         </div>
                     </div>
                 </div>
-                <div class="h-[50px] p-2 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
-                    <div class="flex items-center justify-center">
-                        <div>
-                            <div class="text-[12px] text-white font-extrabold">
-                                Returns,
-                            </div>
-                            <div class="flex items-center">
-                                <div class="text-[15px] text-white -mt-1.5 font-extrabold">& Orders</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="relative h-[50px] p-2 border-[1px] border-transparent rounded-sm hover:border-gray-100 cursor-pointer">
-                    <span class="absolute text-center right-[21px] w-14px -top-0 rounded-full text-[20px]">
-                        <div class="text-orange-400 font-extrabold bg-gray-900 h-[16px]">0</div>
-                    </span>
-                    <div class="flex items-center justify-center">
-                        <CartMinusIcon fillColor="#fcfcfc" :size="40" class="-mt-0.5"/>
-                    </div>
-                </div>
             </div>
         </div>
-        
     </div>
 </template>

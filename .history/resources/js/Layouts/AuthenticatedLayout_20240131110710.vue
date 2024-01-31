@@ -4,7 +4,7 @@ import { Link } from '@inertiajs/vue3';
 import MapMarkerOutlineIcon from 'vue-material-design-icons/MapMarkerOutline.vue';
 import MenuDownIcon from 'vue-material-design-icons/MenuDown.vue';
 import MagnifyIcon from 'vue-material-design-icons/Magnify.vue';
-import CartMinusIcon from 'vue-material-design-icons/CartMinus.vue';
+import CardMinusIcon from 'vue-material-design-icons/CardMinus.vue';
 
 const showingNavigationDropdown = ref(false);
 </script>
@@ -87,11 +87,10 @@ const showingNavigationDropdown = ref(false);
                         <div class="text-orange-400 font-extrabold bg-gray-900 h-[16px]">0</div>
                     </span>
                     <div class="flex items-center justify-center">
-                        <CartMinusIcon fillColor="#fcfcfc" :size="40" class="-mt-0.5"/>
+                        <CardMinusIcon fillColor="#fcfcfc" :size="40" class="-mt-0.5"/>
                     </div>
                 </div>
             </div>
         </div>
-        
     </div>
 </template>
