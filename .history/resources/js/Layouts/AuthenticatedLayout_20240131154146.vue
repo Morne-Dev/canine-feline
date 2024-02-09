@@ -92,14 +92,8 @@ const showingNavigationDropdown = ref(false);
                 </div>
             </div>
         </div>
-        <div class="flex items-center justify-between bg-[#232f3e] h-[38px] fixed z-40 min-w-[1150px] w-full mt-[60px]">
-            <div class="flex">
-                <div class="flexh-[30px] border-[1px] bg-[#232f3e]"></div>
 
-            </div>
-        </div>
-
-        <main class="max-w-[1500px] mx-auto">
+        <main class="max-width-[1500px] mx-auto">
             <div class="pt-[98px]"></div>
             <slot></slot>
         </main>
